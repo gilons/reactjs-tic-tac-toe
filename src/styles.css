@@ -1,0 +1,58 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.gameContainer {
+  max-width: 500px;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item {
+  flex: 1;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  height: 60px;
+  min-width: 60px;
+  border: none;
+  margin: 2px;
+  border-radius: 5px;
+  background-color: aqua;
+}
+
+.reset-button {
+  width: 80px;
+  height: 40px;
+  flex: 1;
+  text-align: center;
+  border-radius: 10px;
+  align-self: flex-start;
+  margin-top: 10px;
+  border: none;
+  background-color: rosybrown;
+}
+
+.win {
+  background-color: lightcoral;
+  color: red;
+  font-weight: 700;
+  font-size: 30px;
+  border-radius: 5px;
+  padding: 3px;
+}
+.draw {
+  font-weight: bold;
+  padding: 4px;
+  background-color: gainsboro;
+  font-size: 40px;
+}
